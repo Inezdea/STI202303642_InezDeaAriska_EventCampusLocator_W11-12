@@ -1,16 +1,45 @@
-# event_kampus_locator
+# 📰 Event Kampus Locator (Build 1)
 
-A new Flutter project.
+*Nama:* Inez Dea Ariska  
+*NIM:* STI202303642  
+*Proyek:* Event Kampus Locator  
+*Modul W11–12:* Flutter – Servis Lokasi, Peta (Google Maps & OSM)
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 1. 📍 Deteksi Lokasi & Alamat (Basic Location)
 
-A few resources to get you started if this is your first Flutter project:
+Aplikasi menyediakan fitur pengambilan lokasi pengguna secara one-time untuk mendapatkan latitude, longitude, dan alamat lengkap melalui proses Reverse Geocoding. Fitur ini memungkinkan pengguna mengetahui posisi saat ini tanpa pelacakan berkelanjutan.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 2. 📡 Pelacakan Lokasi Real-Time (Tracking Stream)
+
+Aplikasi dapat melacak lokasi pengguna secara real-time dan memperbarui koordinat saat pengguna bergerak. Disediakan tombol navigasi untuk membuka posisi langsung di Google Maps atau OpenStreetMap (OSM).
+
+---
+
+## 3. 📝 Daftar Event & Perhitungan Jarak
+
+Aplikasi menampilkan daftar event kampus dan menghitung jarak setiap event dari lokasi pengguna secara otomatis menggunakan koordinat GPS. Pengguna dapat mengetahui event terdekat dengan mudah.
+
+---
+
+## 📦 Teknologi yang Digunakan
+
+- Flutter (Dart)  
+- Geolocator  
+- Geocoding  
+- Google Maps URL Launcher  
+- OpenStreetMap Navigator  
+- Haversine Distance Formula  
+
+---
+
+## 🚀 Status Build 1
+
+✔ Pengambilan lokasi  
+✔ Reverse Geocoding  
+✔ Tracking Stream  
+✔ Navigasi Maps  
+✔ Perhitungan jarak event
